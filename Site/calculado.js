@@ -16,9 +16,6 @@ function reset(){
     document.calculadoraForm.visor = "";
 }
 
-
-
-
 function equality(){
     resultado = eval(valor);
     document.calculadoraForm.visor.value = resultado.toLocaleString("pt-br");
